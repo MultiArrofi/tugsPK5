@@ -1,0 +1,99 @@
+
+body{
+	background-image: url(istagram.jpg);
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	font-size: 0;
+	font: lucida-handwriting;
+	vertical-align: baseline;
+	display: block;
+	line-height: 1;
+}
+
+table{
+    border-collapse: collapse;
+	border-spacing: 0; 
+}
+
+#container{
+	width: 270px;
+	margin: 80px auto;
+	padding: 10px;
+	box-shadow:0 0 4px;
+
+}
+
+#container .header{
+	font-size: 30px;
+	font-family: Calibri-handwriting;
+	font-weight: ;
+	text-align: center;
+}
+
+#container .subheader{
+	font-family: century;
+	font-family: ;
+	text-align: center;
+	margin-top: 6px;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+#container .subheader-a{
+	font-family: century;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-color: #2ce518;
+	font-size: 15px;
+}
+
+.content{
+	padding-top: 10px;
+}
+
+input[type = "email"]{
+	padding: 3px 3px;
+	padding-top: 10px;
+	margin: 5px 50px 5px 40px;
+	width: 200px;
+
+}
+
+input[type = "text"]{
+	padding: 3px 3px;
+	padding-top: 6px;
+	margin: 10px 50px 10px 40px;
+	width: 200px;
+	
+}
+
+input[type = "password"]{
+	padding: 3px 3px;
+	margin: 5px 50px 5px 40px;
+	width: 200px;
+	
+}
+
+input[type = "submit"]{
+	padding: 5px;
+	margin: 5px 50px 5px 40px;
+	width: 200px;
+	text-align: center;
+	width: 225px;
+	font-weight: bold;
+	background-color: #2ce518;
+	color: white;
+	border: 0;
+	box-shadow: 0 0 4px #2ce518;
+	
+}
+
+#container .footer{
+	font-family: Century;
+	padding: 9px;
+	font-size: 15px;
+	text-align: center;
+}
